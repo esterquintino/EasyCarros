@@ -1,20 +1,24 @@
 /* Geral */
-body{
+body {}
 
-}
-
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Roboto', sans-serif;
 }
+
 /* menu lateral */
 
 /* menu superior */
-.navbar-superior{
+.navbar-superior {
     box-shadow: 20px 20px 50px #dfdfdf;
 }
 
 /* botões superiores */
-.btn-entrar{
+.btn-entrar {
     border-color: #292D32;
     border-width: 0.5px;
     border-radius: 4px;
@@ -24,12 +28,13 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 300;
     font-size: 16px;
 }
-.btn-entrar:hover{
+
+.btn-entrar:hover {
     background-color: #292D32;
     color: #ffffff;
 }
 
-.btn-cadastrar{
+.btn-cadastrar {
     border-color: #292D32;
     border-width: 0.5px;
     border-radius: 4px;
@@ -40,29 +45,42 @@ h1, h2, h3, h4, h5, h6{
     font-size: 16px;
 }
 
-.btn-abre-menu{
-    
-}
+.btn-abre-menu {}
 
 /* Menu lateral */
 
-.offcanvas-divisor{
+.offcanvas-divisor {
     border-width: 0.5px;
     border-color: #292929;
 
 }
 
-.btn-image{
+.btn-image {
     width: 50px;
     height: 50px;
     margin-right: 20px;
 }
 
-.btn-menu{
+.btn-menu {
     width: 100%;
     text-align: left;
 }
 
-.btn-menu:hover{
+.btn-menu:hover {
     background-color: #dfdfdf;
+}
+
+/* Conteúdo */
+
+
+/* Rodapé */
+
+.container-rodape{
+    background-color: #292D32;
+    
+}
+
+.ico-redes{
+    width: 25px;
+    height: 25px;
 }
