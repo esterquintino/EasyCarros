@@ -1,0 +1,68 @@
+/* Geral */
+body{
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+/* menu lateral */
+
+/* menu superior */
+.navbar-superior{
+    box-shadow: 20px 20px 50px #dfdfdf;
+}
+
+/* botões superiores */
+.btn-entrar{
+    border-color: #292D32;
+    border-width: 0.5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #292D32;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.btn-entrar:hover{
+    background-color: #292D32;
+    color: #ffffff;
+}
+
+.btn-cadastrar{
+    border-color: #292D32;
+    border-width: 0.5px;
+    border-radius: 4px;
+    background-color: #292D32;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.btn-abre-menu{
+    
+}
+
+/* Menu lateral */
+
+.offcanvas-divisor{
+    border-width: 0.5px;
+    border-color: #292929;
+
+}
+
+.btn-image{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.btn-menu{
+    width: 100%;
+    text-align: left;
+}
+
+.btn-menu:hover{
+    background-color: #dfdfdf;
+}
