@@ -1,6 +1,4 @@
 /* Geral */
-body {}
-
 h1,
 h2,
 h3,
@@ -45,8 +43,6 @@ h6 {
     font-size: 16px;
 }
 
-.btn-abre-menu {}
-
 /* Menu lateral */
 
 .offcanvas-divisor {
@@ -71,7 +67,35 @@ h6 {
 }
 
 /* Conteúdo */
+.form-controle{
+    border-color:#dfdfdf;
+    border-width: 0.5px;
+    border-radius: 4px;
+    border-style: solid;
+}
 
+.label-desc{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #292D32;
+}
+
+.btn-procurar{
+    border-color: #292D32;
+    border-width: 0.5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #292D32;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.btn-procurar:hover{
+    background-color: #292D32;
+    color: #ffffff;
+}
 
 /* Rodapé */
 

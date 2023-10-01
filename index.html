@@ -53,6 +53,7 @@
         <!-- Botão menu superior -->
     </nav>
     <!-- Navbar superior -->
+
     <!-- Menu Offcanvas -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
@@ -92,9 +93,55 @@
         </div>
     </div>
     <!-- Menu Offcanvas -->
-    <!-- Conteúdo -->
 
     <!-- Conteúdo -->
+    <div class="container">
+        <form class="p-5 mt-5 form-controle">
+            <div class="mb-3">
+                <label class="form-label label-desc">Local de retirada:</label>
+                <select id="inputLocalRetirada" class="form-select">
+                    <option selected></option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label label-desc">Data da retirada:</label>
+                        <input type="date" class="form-control datepicker">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label label-desc">Hora da retirada:</label>
+                        <input type="datetime" class="form-control timepicker">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label label-desc">Local de entrega:</label>
+                <select id="inputLocalEntrega" class="form-select">
+                    <option selected></option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label label-desc">Data da entrega:</label>
+                        <input type="date" class="form-control datepicker">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label label-desc">Hora da entrega:</label>
+                        <input type="datetime" class="form-control timepicker">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center ">
+                <button type="submit" class="btn btn-procurar mt-3">Procurar</button>
+            </div>
+        </form>
+    </div>
+    <!-- Conteúdo -->
+
     <!-- Rodapé -->
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
