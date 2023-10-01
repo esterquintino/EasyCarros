@@ -83,6 +83,22 @@ h6 {
     border-style: solid;
 }
 
+.form-entrar{
+    border-color:#dfdfdf;
+    border-width: 0.5px;
+    border-radius: 4px;
+    border-style: solid;
+    width: 350px;
+}
+
+.cadastro-link{
+    color:#292D32;
+}
+
+.cadastro-link:hover{
+    box-shadow: 20px 20px 50px #dfdfdf;
+}
+
 .label-desc{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -131,6 +147,12 @@ h6 {
 .img-banner{
     width: 100dvw;
     overflow: hidden;
+}
+
+.entrae-divisor {
+    border-width: 0.5px;
+    border-color: #292929;
+
 }
 
 /* Rodapé */
