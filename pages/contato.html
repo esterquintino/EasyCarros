@@ -67,7 +67,7 @@
                 <img src="../images/usuario.png" class="btn-image">
                 Minha conta
             </a>
-            <a href="#" class="btn btn-menu">
+            <a href="procurar.html" class="btn btn-menu">
                 <img src="../images/pesquisar.png" class="btn-image">
                 Procurar veículos
             </a>
@@ -85,7 +85,7 @@
                 Negociar veículo
             </a>
             <hr class="offcanvas-divisor">
-            <a href="contato.html" class="btn btn-menu">
+            <a href="#" class="btn btn-menu">
                 <img src="../images/telefone.png" class="btn-image">
                 Fale conosco
             </a>
@@ -98,45 +98,26 @@
     <div class="container">
         <form class="p-5 mt-5 mb-5 form-controle">
             <div class="mb-3">
-                <label class="form-label label-desc">Local de retirada:</label>
-                <select id="inputLocalRetirada" class="form-select">
-                    <option selected></option>
-                    <option>...</option>
-                </select>
-            </div>
-            <div class="mb-3">
                 <div class="row">
                     <div class="col-6">
-                        <label class="form-label label-desc">Data da retirada:</label>
-                        <input type="date" class="form-control datepicker">
+                        <label class="form-label label-desc">Nome:</label>
+                        <input type="text" class="form-control">
                     </div>
                     <div class="col-6">
-                        <label class="form-label label-desc">Hora da retirada:</label>
-                        <input type="datetime" class="form-control timepicker">
+                        <label class="form-label label-desc">Email:</label>
+                        <input type="email" class="form-control">
                     </div>
                 </div>
-            </div>
-            <div class="mb-3">
-                <label class="form-label label-desc">Local de entrega:</label>
-                <select id="inputLocalEntrega" class="form-select">
-                    <option selected></option>
-                    <option>...</option>
-                </select>
-            </div>
-            <div class="mb-3">
-                <div class="row">
-                    <div class="col-6">
-                        <label class="form-label label-desc">Data da entrega:</label>
-                        <input type="date" class="form-control datepicker">
-                    </div>
-                    <div class="col-6">
-                        <label class="form-label label-desc">Hora da entrega:</label>
-                        <input type="datetime" class="form-control timepicker">
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <label class="form-label label-desc">Mensagem:</label>
+                        <textarea class="form-control" rows="4" cols="50">
+                        </textarea>
                     </div>
                 </div>
             </div>
             <div class="d-flex align-items-center justify-content-center ">
-                <button type="submit" class="btn btn-procurar mt-3">Procurar</button>
+                <button type="submit" class="btn btn-procurar mt-3">Enviar</button>
             </div>
         </form>
 
