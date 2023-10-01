@@ -106,6 +106,22 @@ h6 {
     color: #ffffff;
 }
 
+.container-dark{
+    background-color:#dfdfdf;
+    height: 100%;
+}
+
+.btn-vejamais{
+    border-color: #292D32;
+    border-width: 0.5px;
+    border-radius: 4px;
+    background-color: #292D32;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 /* Rodapé */
 
 .container-rodape{
