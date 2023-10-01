@@ -122,6 +122,17 @@ h6 {
     font-size: 16px;
 }
 
+.btn-vejamais:hover{
+    border-color: #292D32;
+    border-width: 0.5px;
+    border-radius: 4px;
+}
+
+.img-banner{
+    width: 100dvw;
+    overflow: hidden;
+}
+
 /* Rodapé */
 
 .container-rodape{
